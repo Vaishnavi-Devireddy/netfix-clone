@@ -1,0 +1,22 @@
+cat <<EOF > src/main/resources/static/index.html
+  2 <!DOCTYPE html>
+  3 <html>
+  4 <head>
+  5     <title>Netflix Clone</title>
+  6     <style>
+  7         body { background: #000; color: #fff; font-family: Arial; margin: 0; text-align: center; }
+  8         .nav { padding: 20px; color: #e50914; font-size: 30px; font-weight: bold; text-align: left; }
+  9         .hero { height: 80vh; display: flex; flex-direction: column; justify-content: center; }
+ 10         .btn { background: #e50914; color: #fff; padding: 15px 30px; border: none; cursor: pointer; }
+ 11     </style>
+ 12 </head>
+ 13 <body>
+ 14     <div class="nav">NETFLIX</div>
+ 15     <div class="hero">
+ 16         <h1>Unlimited movies, TV shows, and more.</h1>
+ 17         <button class="btn">WATCH NOW</button>
+ 18     </div>
+ 19 </body>
+ 20 </html>
+ 21 EOF
+
